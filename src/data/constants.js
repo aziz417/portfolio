@@ -1,7 +1,7 @@
 export const Bio = {
-  name: "Abdul Aziz",
+  name: "Abdul Aziz 111",
   roles: [
-    "Full Stack Developer",
+    "Full Stack Developer 1",
     "Full Stack software Engineer",
   ],
   description:
@@ -32,7 +32,7 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-   
+
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -57,7 +57,7 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-     
+
       {
         name: "TailwindCss",
         image:
