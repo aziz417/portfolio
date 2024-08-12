@@ -1,5 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
+import MapIcon from '@mui/icons-material/Map';
+
+
+const SocialMediaIcons = styled.div`
+  margin-top: 1rem;
+`;
+
+const SocialMediaIcon = styled.a`
+  margin-top: 15px;
+  font-size: 1rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
 
 const Document = styled.img`
     display: none;
@@ -36,7 +54,7 @@ text-overflow: ellipsis;
 const Card = styled.div`
     width: 650px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -64,9 +82,7 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-
-    border: 0.1px solid #306EE8;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border: 0.1px solid #854CE6;
 `
 
 const Top = styled.div`
@@ -92,7 +108,7 @@ const Body = styled.div`
 `
 
 
-const Role = styled.div`
+const Name = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -101,7 +117,7 @@ const Role = styled.div`
     }
 `
 
-const Company = styled.div`
+const Degree = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -119,24 +135,10 @@ const Date = styled.div`
     }
 `
 
-
-const Skills = styled.div`
-    width: 100%;
-    display: flex;
-    gap: 12px;
-    margin-top: -10px;
-`
-
-const ItemWrapper = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-`
-
-const Skill = styled.div`
-    font-size: 15px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
+const Grade = styled.div`
+    font-size: 14px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -144,40 +146,24 @@ const Skill = styled.div`
 
 
 
-const ExperienceCard = ({ experience }) => {
+const ContactCard = () => {
     return (
         <Card>
             <Top>
-                <Image src={experience.img} />
+                {/* <Image src={education.img} /> */}
                 <Body>
-                    <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
-                    <Date>{experience.date}</Date>
+                    <SocialMediaIcons>
+
+                        <SocialMediaIcon href="https://wa.me/01797506292" target="display"><WhatsAppIcon /> 01797-506292</SocialMediaIcon>
+                        <br/>
+                        <SocialMediaIcon href="mailto:aziz417.dev@gmail.com" target="display"><EmailIcon /> aziz417.dev@gmail.com</SocialMediaIcon>
+                        <br/>
+                        <SocialMediaIcon href="https://maps.app.goo.gl/TNjEyTQ4yjftmiyv5" target="display"><MapIcon /> Borogachi, Pangsha, Rajbari, Dhaka, Bangladesh.</SocialMediaIcon>
+                    </SocialMediaIcons>
                 </Body>
             </Top>
-            <Description>
-                {experience?.desc &&
-                    // <Span>{experience?.desc}</Span>
-                    <div dangerouslySetInnerHTML={{ __html: experience?.desc }} />
-
-                }
-                {experience?.skills &&
-                    <>
-                        <br />
-                        <Skills>
-                            <b>Skills:</b>
-                            <ItemWrapper>
-                                {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
-                                ))}
-                            </ItemWrapper>
-                        </Skills>
-                    </>
-                }
-            </Description>
-            
         </Card>
     )
 }
 
-export default ExperienceCard
+export default ContactCard
