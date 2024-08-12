@@ -7,7 +7,7 @@ export const Bio = {
     "I am a qualified and professional web developer with 3 years + of experience in laravel and working with ReactJs and VueJs strong creative and analytical skills.",
   github: "https://github.com/aziz417",
   resume:
-    "https://drive.google.com/file/d/14FT3gQssGPKdEFgyAB8h8zfYgkQKUzcE/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Q0i0NGSaRQIV3g07JttrhFoDa99UC3HI/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/abdul-aziz-296aa0212/",
   facebook: "https://www.facebook.com/profile.php?id=100009844266240&mibextid=ZbWKwL",
 };
