@@ -4,10 +4,10 @@ export const Bio = {
     "Full Stack Web Developer",
   ],
   description:
-    "I am a qualified and professional web developer with 3 years + of experience in laravel and working with ReactJs and VueJs strong creative and analytical skills.",
+    "I am a qualified and professional web developer with 4 years + of experience in laravel and working with ReactJs strong creative and analytical skills.",
   github: "https://github.com/aziz417",
   resume:
-    "https://drive.google.com/file/d/1Q0i0NGSaRQIV3g07JttrhFoDa99UC3HI/view?usp=drive_link",
+    "Abdul_Aziz_Full_Stack_Web_Developer.pdf",
   linkedin: "https://www.linkedin.com/in/abdul-aziz-296aa0212/",
   facebook: "https://www.facebook.com/profile.php?id=100009844266240&mibextid=ZbWKwL",
 };
@@ -108,21 +108,26 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
+        name: "Socket.IO",
+        image:
+          "https://socket.io/images/logo-dark.svg",
+      },
+      {
         name: "Strapi",
         image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACiUlEQVR4AaVXQW4TQRAcPgEPytgMZ5DyBiIsRcrBEkASHgBIAG8APmAJXuIDfoIlH/fianrTE2V2S5XNKiNVFI/X3dXVPTvd6XadnNizFwtbOzaOrWPv6BxHBxw2C9lQ4rfdja1s27CN9XJpT1O7lie28C8PbAjGhu/+L+3nGSgLHHqf4dzZ9M7JaYYVaQSaHDmrz2d67vC8V6K4JNqAMjgfpQfbX6fIi8ojRztfeibeKLLpCWy1AuCcE1hqHQxhm2q1G0MrMlULRTll7J0AunkEWA1ylGvOBbGGdJfinEtHioQAJqLHmMyxJwCSUeDi3Ozj5TSur8xOXykCaAkgjZkp9qszs93OYsFGizacyFQ6A4kdM4E37vzHtyBAbhFodxEEIiVC3TIgkHUKVuG8EoCphbECV8PAmAgpoJ0HQAqQV5kCnd7Em+S8UUA4JV4gAgpNCjA4KqcvGZ8/mf36CYfd4Lfj7x+tQKGXFeiSSxx9KEL7GfbhLaviRGKBCcjXd1N3aXBb8XFsjQSBr+H4e0Ngugb0MU8Tb6oWUoE2eEgFIGuA2BXxPnj/DioFtK4vRzbJOaegbuqrefU6VGjxxQvz385sN8LF+f3Hr5ACAuqajajgp4PTsjpr6+q+KxpWLyPFFpP14QRqQUaBhvMHA3fXcRYkJFAJgCLngpM9xTH5n24cVZmRElegcQ4ro8tmIp0dtWR0/qld5xSw7EIB+h77FBPLdPTauO6MStZNSYnjvuW2/JG9vzrC4vlNr8B62BNgftR5HvFGmfXtUHqgbkg6Ekc0T80NYjR7UofT4huFo9DR5kd10XU4jdUOqTGeZ9s69g4az4vsIek2hStTx3Psq82+3gbj+X9LeqPtxkiTtwAAAABJRU5ErkJggg=="},
-      // {
-      //   name: "Postgresql",
-      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      // },
-      // {
-      //   name: "MongoDB",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      // },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      {
+        name: "Postgresql",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "Redis ",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAflBMVEX/RDj/PjH/Oiz/Nyj/NSX/QTX/Oy3/MiL/eHH/oJz/ubb/w8H/sa3/g33/nJf/3tz/////p6L/LRz/tbH/1NL/bWX/iYP/9PP/+/v/UUb/7+7/enT/KRX/IAP/X1b/6ej/cWr/jYf/TUL/Ign/lpH/VEr/ycf/ZFv/vrv/kIu2/yqSAAABA0lEQVR4Ab2SRRbDIBRFceJ58aTusv8FVoAWTjtu7/TCd/IHKOOCc/otpNI8ipM0zXLBPxRXRYkXVR06qhqEtIGVHT6omP/YwzCMAOJn+LH2Pyc8mM0rANli2QJYybet10CxjJ8vaqKecTa+IbUtd/sDHnSU1BmAoyTeam3ypsu6PtgAAXwOw7jGky0LfjLbzADLabHzcekKhtjaZqGHVrzcBEu5zNo2O+pFiUK5NuVg+gSQL2utNS0B6sIKW8Q0PCOep00GIHFReWpcvzjhzajcR5bhQVZTP34/ILkzxROiUzjmft3igrI2I74Y1R4Z8ajEpRC7a9ETLUkI95ekTA8/5Q6m7xhXf5X61wAAAABJRU5ErkJggg==",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
     ],
   },
   // {
@@ -194,10 +199,48 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "PB.png",
+    role: "Full stack web developer and Team Lead",
+    company: "Progressive Byte was a software development company",
+    date: "Sep 2024 - Present",
+    desc: `<strong>1. Repwrap:</strong> Full Stack Development of Repwrap using Next.js and Laravel API, A robust task management platform supporting subtasks, real-time chat, automated reporting, leave
+management, live notifications, and smart reminders for enhanced team collaboration and productivity.
+
+</br>
+</br>
+<strong>2.  Tixe App – ARMY Training & Gear Sales System:</strong> Developed a secure RESTful API and dynamic admin panel for managing ARMY training modules, gear
+inventory, user roles, orders, and live analytics..
+</br>
+</br>
+<strong>3. Topassets:</strong> Developed a dynamic real estate platform using the latest Laravel and Bootstrap. Features include property listings, advanced search, user authentication, and responsive UI for an optimal browsing experience across devices.`,
+    skills: [
+      "ReactJs",
+      "NextJs",
+      "Socket.IO",
+      "Redis",
+      "PHP",
+      "Laravel",
+      "MYSQL",
+      "JavaScript",
+      "TypeScript",
+      "JQuery",
+      "Ajax",
+      "Github",
+      "Gitlab",
+      "Tailwind",
+      "Bootstrap",
+      "scss",
+      "CSS",
+      "HTML",
+    ],
+    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 0,
     img: "BLI.png",
     role: " Full stack web developer",
     company: "BATTERY LOW INTERACTIVE",
-    date: "March 2024 - Present",
+    date: "Oct 2023 - Aug 2024",
     desc: `<strong>1. Batterylowglobal:</strong> Led the development of Batterylowglobal using Nuxt.js 3 and Strapi, ensuring efficient performance and user experience.
 
 </br>
@@ -233,7 +276,7 @@ export const experiences = [
     img: "mysofthaven.png",
     role: "Full stack web developer",
     company: "MYSOFTHEAVEN",
-    date: "January 2023 -  2024 February",
+    date: "Jul 2022 -  Sep 2023",
     desc: `Specialized in developing websites and web applications with Laravel and Next.js. Proficient in creating and integrating APIs across multiple applications. Experienced in database design, server management, and CPanel administration.`,
     skills: [
       "ReactJs",
@@ -254,34 +297,34 @@ export const experiences = [
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
-  {
-    id: 1,
-    img: "setcolbd.png",
-    role: " Full stack web developer",
-    company: "SETCOLBD",
-    date: "July 2021 - 2022 December",
-    desc: `Specialized in developing websites and web applications, particularly with React.js. Proficient in API development and integration. Experienced in database design, server management, and leading client conversations.`,
-    skills: [
-      "ReactJs",
-      "NextJs",
-      "PHP",
-      "Laravel",
-      "MYSQL",
-      "JavaScript",
-      "JQuery",
-      "Ajax",
-      "Github",
-      "Bootstrap",
-      "CSS",
-      "HTML",
-    ],
-  },
+  // {
+  //   id: 1,
+  //   img: "setcolbd.png",
+  //   role: " Full stack web developer",
+  //   company: "SETCOLBD",
+  //   date: "July 2021 - 2022 December",
+  //   desc: `Specialized in developing websites and web applications, particularly with React.js. Proficient in API development and integration. Experienced in database design, server management, and leading client conversations.`,
+  //   skills: [
+  //     "ReactJs",
+  //     "NextJs",
+  //     "PHP",
+  //     "Laravel",
+  //     "MYSQL",
+  //     "JavaScript",
+  //     "JQuery",
+  //     "Ajax",
+  //     "Github",
+  //     "Bootstrap",
+  //     "CSS",
+  //     "HTML",
+  //   ],
+  // },
   {
     id: 3,
     img: "devxhub.png",
     role: " Full stack web developer",
     company: "DEVXHUB",
-    date: "2021 January - 2021 Jun",
+    date: "Jan 2021 - Jun 2022",
     desc: `Proficient in developing diverse web applications across various platforms, with expertise in server management.`,
     skills: [
       "VueJs",
@@ -332,6 +375,90 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 5,
+    title: "Repwrap",
+    date: "Feb 2025 - Present",
+    description:
+      "A robust task management platform supporting subtasks, real-time chat, automated reporting, leave management, live notifications, and smart reminders for enhanced team collaboration and productivity.",
+    image:
+      "https://www.repwrap.com/wp-content/uploads/2025/03/admit-dashboard.gif",
+    tags: [
+      "NextJs",
+      "react-redux",
+      "redux-toolkit",
+      "react-from",
+      "react-toastify",
+      "socket.io",
+      "react-google-login",
+      "axios",
+      "Tailwind CSS",
+      "Laravel-API",
+    ],
+    category: "reactjs",
+    github: "#",
+    webapp: "https://playground.repwrap.com/",
+  },
+  {
+    id: 5,
+    title: "Topassets",
+    date: "March 2025 - July 2025",
+    description:
+      "Led the development of a modern real estate platform using the latest Laravel and Bootstrap. Oversaw full project lifecycle including architecture design, backend development, UI implementation, and deployment. Key features include property listings, advanced search, user authentication, and a fully responsive interface.",
+    image:
+      "project/topassete.png",
+    tags: [
+      "Laravel 11",
+      "Bootstrap",
+      "Authentication",
+      "Role Based Access Control",
+      "Rent and Sale Manage",
+    ],
+    category: "laravel",
+    github: "#",
+    webapp: "https://topassets.pro/",
+  },
+  {
+    id: 5,
+    title: "Dsflglobal",
+    date: "April 2025 - May 2025",
+    description:
+      "Deep Sea Fishers Limited (DSFL) – Company Website Led the development of a modern, responsive corporate website for DSFL using Next.js and Tailwind CSS.Showcased the brand’s 40+ years of experience in the seafood export industry with a clean UI, optimized performance, and SEO- friendly architecture using the latest web technologies.",
+    image:
+      "project/dsfl.png",
+    tags: [
+      "NextJs",
+      "react-from",
+      "react-toastify",
+      "axios",
+      "Tailwind CSS",
+    ],
+    category: "reactjs",
+    github: "#",
+    webapp: "https://topassets.pro/",
+  },
+  {
+    id: 5,
+    title: "Tixe App",
+    date: "Dec 2024 - Present",
+    description:
+      "Developed a secure RESTful API and dynamic admin panel for managing ARMY training modules, gear inventory, user roles, orders, and live analytics.",
+    image:
+      "project/tixeadmin.png",
+    tags: [
+      "NextJs",
+      "react-redux",
+      "redux-toolkit",
+      "react-from",
+      "react-toastify",
+      "axios",
+      "Tailwind CSS",
+      "Laravel-API",
+    ],
+    category: "reactjs",
+    github: "#",
+    webapp: "https://tixedashboard.sagsio.com/",
+  },
   {
     id: 5,
     title: "Public Market",
